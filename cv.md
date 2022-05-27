@@ -36,8 +36,8 @@ I want to work in a big and friendly team. I'd like to learn more about React.
 ## Code Example
 ### Task: сalculate the factorial with do while
 ```
-var counter = prompt("Enter number");
-var factorial = 1;
+let counter = prompt("Enter number");
+let factorial = 1;
 document.write("Factorial of: " + counter + "! = ");
 do {
     if (counter == 0) {
