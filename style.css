@@ -1,0 +1,17 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.cv {
+  display: flex;
+  justify-content: center;
+  padding: 1.25rem;
+}
+
+.cv__container {
+  width: 100%;
+  max-width: 64rem;
+  min-height: calc(100vh - 2.5rem);
+  box-shadow: 0 0 30px rgba(0,0,0,0.05);
+}
