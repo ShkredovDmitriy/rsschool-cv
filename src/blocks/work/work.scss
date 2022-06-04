@@ -1,0 +1,34 @@
+.work {
+  display: flex;
+  justify-content: center;
+  padding-top: 2.8125rem;
+}
+
+.work__wrapper {
+  width: 100%;
+  padding-top: 1.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.work__item {
+  position: relative;
+  padding-left: 1.625rem;
+  font-size: 1rem;
+  color: $color-grey;
+
+  &:nth-child(n + 2) {
+    margin-top: 0.5rem;
+  }
+
+  &:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0.5625rem;
+    width: 0.75rem;
+    height: 0.125rem;
+    background-color: $color-orange;
+  }
+}
