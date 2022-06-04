@@ -1,0 +1,42 @@
+.personal__name {
+  text-align: center;
+}
+
+.personal__firstname {
+  color: $color-grey;
+}
+
+.personal__lastname {
+  padding-left: 0.5rem;
+  color: $color-orange;
+}
+
+.personal__position {
+  font-size: 1.125rem;
+  text-align: center;
+  color: $color-grey;
+}
+
+.personal__links {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  fill: $color-grey;
+}
+
+.personal__link {
+  width: 3.125rem;
+  height: 3.125rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+@include media-desktop {
+  .personal__link {
+    transition: fill 0.3s;
+
+    &:hover {
+      fill: $color-orange;
+    }
+  }
+}
