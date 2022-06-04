@@ -1,0 +1,39 @@
+.button-mobile-menu span {
+  transition-property: background-color;
+  transition-duration: 300ms;
+  transition-delay: 300ms;
+}
+
+.button-mobile-menu span::before,
+.button-mobile-menu span::after {
+  transition-duration: 300ms, 300ms, 300ms;
+  transition-delay: 300ms, 0s, 0s;
+}
+
+.button-mobile-menu span::before {
+  transition-property: top, transform, -webkit-transform;
+}
+
+.button-mobile-menu span::after {
+  transition-property: bottom, transform, -webkit-transform;
+}
+
+// active
+.button-mobile-menu.active span::before,
+.button-mobile-menu.active span::after {
+  transition-delay: 0s, 300ms, 300ms;
+}
+
+.button-mobile-menu.active span {
+  background-color: transparent;
+}
+
+.button-mobile-menu.active span::before {
+  top: 0;
+  transform: rotate(45deg);
+}
+
+.button-mobile-menu.active span::after {
+  bottom: 0;
+  transform: rotate(-45deg);
+}
