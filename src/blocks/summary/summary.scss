@@ -1,0 +1,15 @@
+.summary {
+  display: flex;
+  justify-content: center;
+  padding-top: 2.8125rem;
+}
+
+.summary__text {
+  margin-top: 0.75rem;
+}
+
+@include media-desktop {
+  .summary__text {
+    margin-top: 1rem;
+  }
+}
