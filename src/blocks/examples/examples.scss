@@ -1,0 +1,12 @@
+.examples {
+}
+
+.examples__wrapper {
+}
+
+@include media-tablet-wide {
+  .examples__container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
