@@ -1,0 +1,20 @@
+extends ../../templates/index
+
+block variables
+    - var title = 'CV - Dmitriy Shkredov'
+    - var pageClass = 'index-page'
+
+block content
+    include ../../blocks/header/header
+    main.main
+        include ../../blocks/contacts/contacts
+        include ../../blocks/summary/summary
+        include ../../blocks/skills/skills
+        include ../../blocks/code/code
+        include ../../blocks/work/work
+        include ../../blocks/education/education
+        include ../../blocks/languages/languages
+    include ../../blocks/footer/footer
+
+
+
