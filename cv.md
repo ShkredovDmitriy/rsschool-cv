@@ -58,8 +58,11 @@ document.write(factorial);
 ## Work examples:
 
 [Project Total Elf](https://promo.elf-lub.ru/)
+
 [Project Heinz-baby](https://heinz-baby.ru/)
+
 [Project Reprise](http://reprisedigital.ru/)
+
 [Project Trianon](https://dialogue-trianon.ru/)
 
 ## Experience
