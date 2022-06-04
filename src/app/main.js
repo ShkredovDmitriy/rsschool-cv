@@ -6,4 +6,5 @@ import $ from 'jquery';
 window.jQuery = $;
 window.$ = $;
 
-require('./modules/mobile-menu.js');
+require('./modules/mobile-menu');
+require('./modules/scrollto');
