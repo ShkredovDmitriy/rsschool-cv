@@ -1,0 +1,39 @@
+.top-link {
+  position: fixed;
+  bottom: 7.125rem;
+  right: 1.875rem;
+  display: block;
+  width: 2.5rem;
+  height: 2.5rem;
+  // border-radius: 50%;
+  background-color: $color-light;
+  border: 2px solid $color-orange;
+  display: none;
+  transition: background-color 0.3s;
+
+  &:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0.375rem;
+    left: calc(50% - 0.5rem);
+    width: 1rem;
+    height: 1rem;
+    border: 0.5rem solid transparent;
+    border-bottom: 0.5rem solid $color-orange;
+    transition: border-bottom-color 0.3s;
+  }
+}
+
+@include media-notebook {
+  .top-link {
+    right: calc(50% - 38rem);
+    &:hover {
+      background-color: $color-orange;
+
+      &:before {
+        border-bottom-color: $color-white;
+      }
+    }
+  }
+}
