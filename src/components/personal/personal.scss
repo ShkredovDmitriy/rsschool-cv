@@ -17,18 +17,22 @@
   color: $color-grey;
 }
 
-.personal__links {
+.personal__link-list {
   display: flex;
   justify-content: center;
   margin-top: 1rem;
   fill: $color-grey;
 }
 
-.personal__link {
-  width: 3.125rem;
-  height: 3.125rem;
+.personal__link-item {
   margin-left: 0.5rem;
   margin-right: 0.5rem;
+}
+
+.personal__link {
+  display: block;
+  width: 3.125rem;
+  height: 3.125rem;
 }
 
 @include media-notebook {
