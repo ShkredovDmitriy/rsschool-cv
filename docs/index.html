@@ -26,7 +26,7 @@
     <meta name="msapplication-TileImage" content="favicon/mstile-144x144.png">
     <meta name="msapplication-config" content="favicon/browserconfig.xml">
     <link rel="yandex-tableau-widget" href="favicon/yandex-browser-manifest.json">
-    <link href="./css/main.min.css?402ca0c51366422a0519" rel="stylesheet">
+    <link href="./css/main.min.css?68935004813332d8d728" rel="stylesheet">
   </head>
 
   <body class="index-page">
@@ -166,18 +166,13 @@
         <div class="wrapper code__wrapper">
           <h2 class="title-h2 code__title"><span class="color--orange">Code</span> example:</h2>
           <div class="container">
-            <p class="text">Task from Codewars: сalculate the factorial with do while</p><pre class="code__example">let number = prompt("Enter number");
-let factorial = 1;
-do {
-    if (counter == 0) {
-        factorial = 1;
-        break;
-    }
-    factorial = factorial * counter;
-    counter = counter - 1;
-}
-while (counter > 0);
-document.write(factorial);</pre>
+            <p class="text">Task from Codewars: The Supermarket Queue, <a href="https://www.codewars.com/kata/57b06f90e298a7b53d000a86/solutions/javascript" target="_blank">link to codewars</a></p><pre class="code__example">function queueTime(customers, n) {
+  return Math.max(...customers.reduce((acc, time) => {
+    const index = acc.indexOf(Math.min(...acc));
+    acc[index] += time;
+    return acc;
+  }, new Array(n).fill(0)));
+}</pre>
           </div>
         </div>
       </section>
@@ -271,7 +266,7 @@ document.write(factorial);</pre>
             </svg></a></div>
       </div>
     </footer><a class="top-link" href="#contacts"></a>
-    <script defer="defer" src="js/main.min.js?402ca0c51366422a0519"></script>
+    <script defer="defer" src="js/main.min.js?68935004813332d8d728"></script>
   </body>
 
 </html>
