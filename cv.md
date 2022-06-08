@@ -6,6 +6,7 @@
 - Phone: +38-095-502-62-93
 - Telegram: @ShkredovDima
 - Linkedin: [linkedin.com/in/dmitriy-shkredov](https://linkedin.com/in/dmitriy-shkredov)
+- Discord: [discord.com/users/902152026203512883](https://discord.com/users/902152026203512883)
 
 ## A bit about Myself:
 
