@@ -36,22 +36,18 @@ I want to work in a big and friendly team. I'd like to learn more about React.
 
 ## Code Example
 
-### Task from Codewars: сalculate the factorial with do while
+### Task from Codewars: The Supermarket Queue
+
+[Link to codewars](https://www.codewars.com/kata/57b06f90e298a7b53d000a86/solutions/javascript)
 
 ```
-let counter = prompt("Enter number");
-let factorial = 1;
-document.write("Factorial of: " + counter + "! = ");
-do {
-    if (counter == 0) {
-        factorial = 1;
-        break;
-    }
-    factorial = factorial * counter;
-    counter = counter - 1;
+function queueTime(customers, n) {
+    return Math.max(...customers.reduce((acc, time) => {
+        const index = acc.indexOf(Math.min(...acc));
+        acc[index] += time;
+        return acc;
+    }, new Array(n).fill(0)));
 }
-while (counter > 0);
-document.write(factorial);
 
 ```
 
