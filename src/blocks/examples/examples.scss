@@ -1,0 +1,12 @@
+.examples {
+  display: flex;
+  justify-content: center;
+  padding-top: 2.8125rem;
+}
+
+@include media-tablet-wide {
+  .examples__container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

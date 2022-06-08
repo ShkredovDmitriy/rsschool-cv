@@ -1,0 +1,7 @@
+mixin example(props)
+  a(href=props.link target="_blank").example
+    .example__wrapper
+      picture
+        source(srcset="./images/" + props.img + ".webp" type="image/webp")
+        source(srcset="./images/" + props.img + ".jpg" type="image/jpg")
+        img.example__preview(src="./images/" + props.img + ".jpg" alt="work example preview")

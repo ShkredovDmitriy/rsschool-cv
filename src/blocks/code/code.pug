@@ -1,0 +1,23 @@
+section.code#code
+  .wrapper.code__wrapper
+    h2.title-h2.code__title <span class="color--orange">Code</span> example:
+    .container
+      p.text Task from Codewars: The Supermarket Queue, <a href="https://www.codewars.com/kata/57b06f90e298a7b53d000a86/solutions/javascript" target="_blank">link to codewars</a>
+      pre.code__example.
+        function queueTime(customers, n) {
+          return Math.max(...customers.reduce((acc, time) => {
+            const index = acc.indexOf(Math.min(...acc));
+            acc[index] += time;
+            return acc;
+          }, new Array(n).fill(0)));
+        }
+
+
+
+
+
+
+
+
+
+
