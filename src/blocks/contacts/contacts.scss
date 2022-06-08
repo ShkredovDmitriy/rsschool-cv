@@ -1,0 +1,41 @@
+.contacts {
+  padding-top: 2.8125rem;
+}
+
+.contacts__wrapper {
+  padding-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.contacts__avatar,
+.contacts__personal {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.contacts__personal {
+  padding-top: 2rem;
+}
+
+@include media-notebook {
+  .contacts__wrapper {
+    padding-top: 4.5rem;
+  }
+
+  .contacts__wrapper {
+    flex-direction: row;
+  }
+
+  .contacts__avatar {
+    justify-content: flex-end;
+    padding-right: 5rem;
+  }
+
+  .contacts__personal {
+    justify-content: flex-start;
+    padding-top: 3rem;
+  }
+}

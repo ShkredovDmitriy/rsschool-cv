@@ -1,0 +1,16 @@
+.progress {
+  position: absolute;
+  top: 0.3125rem;
+  right: 0;
+  width: 50%;
+  height: 0.75rem;
+  border: 1px solid $color-orange;
+}
+
+.progress__line {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  background-color: $color-orange;
+}

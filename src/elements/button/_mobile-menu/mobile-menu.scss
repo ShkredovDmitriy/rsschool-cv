@@ -1,0 +1,39 @@
+.button-mobile-menu {
+  position: relative;
+  margin-left: auto;
+  width: 1.875rem;
+  height: 1.875rem;
+  z-index: 950;
+
+  span,
+  span:before,
+  span:after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    width: 1.875rem;
+    height: 0.1875rem;
+    background-color: $color-white;
+  }
+
+  span {
+    top: 0.8125rem;
+
+    &:before {
+      top: -0.625rem;
+    }
+
+    &:after {
+      bottom: -0.625rem;
+    }
+  }
+}
+
+@include media-notebook {
+  .button-mobile-menu {
+    display: none;
+  }
+}
+
+@import './animaton.scss';

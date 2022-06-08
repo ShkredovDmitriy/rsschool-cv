@@ -1,0 +1,14 @@
+.text {
+  font-size: 1rem;
+  color: $color-grey;
+
+  a {
+    color: $color-grey;
+    text-decoration: underline;
+    color: $color-orange;
+  }
+}
+
+.color--orange {
+  color: $color-orange;
+}
