@@ -4,19 +4,21 @@
   padding-top: 2.8125rem;
 }
 
-.code__wrapper {
-}
-
 .code__example {
   margin-top: 1rem;
   background-color: $color-light;
   padding: 0.5rem;
-  font-size: 0.875rem;
+  font-size: 0.6875rem;
   line-height: 1.5;
+  letter-spacing: -0.05em;
 }
 
 @include media-tablet {
   .code__example {
     padding: 1rem;
+  }
+
+  .code__example {
+    font-size: 0.875rem;
   }
 }
