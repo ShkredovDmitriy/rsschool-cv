@@ -3,9 +3,8 @@
 ## Contact information:
 
 - E-mail: ShkredovDmitriy@gmail.com
-- Phone: +38-095-502-62-93
+- Phone: +7-949-355-83-93
 - Telegram: @ShkredovDima
-- Linkedin: [linkedin.com/in/dmitriy-shkredov](https://linkedin.com/in/dmitriy-shkredov)
 - Discord: [discord.com/users/902152026203512883](https://discord.com/users/902152026203512883)
 
 ## A bit about Myself:
@@ -26,12 +25,11 @@ I want to work in a big and friendly team. I'd like to learn more about React.
 - HTML5, Pug
 - CSS3, Scss
 - JavaScript, Jquery, React
-- BEM
-- Git, Github
 - Webpack
 - Eslint, Prettier
+- BEM
+- Git, Github
 - VSCode, Sublime
-- Docker
 - Windows, Linux
 - Figma, Adobe Photoshop
 
@@ -53,6 +51,10 @@ function queueTime(customers, n) {
 ```
 
 ## Work examples:
+
+[Project Eldritch Horror](https://shkredovdmitriy.github.io/codejam-eldritch/)
+
+[Project Momentum](https://rolling-scopes-school.github.io/shkredovdmitriy-JSFEPRESCHOOL2022Q2/momentum/)
 
 [Project Total Elf](https://promo.elf-lub.ru/)
 
